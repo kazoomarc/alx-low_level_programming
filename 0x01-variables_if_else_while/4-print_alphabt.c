@@ -13,7 +13,7 @@ if (c == 'q')
 {
 continue;
 }
-if(c == 'e')
+if (c == 'e')
 {
 continue;
 }
