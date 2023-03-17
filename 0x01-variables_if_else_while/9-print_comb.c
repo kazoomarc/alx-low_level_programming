@@ -17,7 +17,7 @@ putchar(',');
 putchar(' ');
 }
 else
-putchar(' ');
+putchar('\n');
 number++;
 }
 return (0);
