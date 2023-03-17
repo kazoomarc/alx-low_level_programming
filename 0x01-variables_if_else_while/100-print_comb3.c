@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 * main - combinations of 2-digit numbers
-* 
+*
 * Return: 0 (success)
 */
 int main(void)
