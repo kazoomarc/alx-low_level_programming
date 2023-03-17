@@ -1,25 +1,25 @@
 #include <stdio.h>
 /**
- *main - 2 digit combinations
- *Return: (success)
- */
+* main - printer for two combination number
+*
+* Return: 0 (success)
+*/
 int main(void)
 {
-int number1, number2;
-for (number1 = 0; number1 <= 99; number1++)
+int i, j;
+
+for (i = 0; i <= 99; i++)
 {
-for (number2 = number1; number2 <= 99; number2++)
+for (j = i + 1; j <= 99; j++)
 {
-if (number1 / 10 <= number2 / 10 && \
-(number1 / 10 == 0 && number2 == 0 && \
-(number2 / 10) == 0 && (number2 % 10) == 0))
+if (i != 0 || j != 0)
 {
-putchar(number1 / 10 + '0');
-putchar(number1 % 10 + '0');
+putchar(i / 10 + '0');
+putchar(i % 10 + '0');
 putchar(' ');
-putchar(number2 / 10 + '0');
-putchar(number2 % 10 + '0');
-if (number1 != 99 || number2 != 9)
+putchar(j / 10 + '0');
+putchar(j % 10 + '0');
+if (i != 99 || j != 99)
 {
 putchar(',');
 putchar(' ');
@@ -27,6 +27,6 @@ putchar(' ');
 }
 }
 }
-putchar('\n');
 return (0);
 }
+
