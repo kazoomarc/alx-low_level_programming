@@ -3,7 +3,7 @@
 * main - double digits
 * Return: 0 (success)
 */
-int main()
+int main(void)
 {
 int i, j;
 
@@ -24,5 +24,5 @@ putchar(' ');
 }
 }
 
-return 0;
+return (0);
 }
