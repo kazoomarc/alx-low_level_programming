@@ -7,10 +7,10 @@
 int main(void)
 {
 int num;
-num = 0;
-while (num < 10)
+number = 0;
+while (number < 10)
 {
-printf(num);
+  printf("%d", number);
 num++;
 }
 putchar('\n');
