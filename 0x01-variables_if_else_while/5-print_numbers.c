@@ -10,8 +10,8 @@ int number;
 number = 0;
 while (number < 10)
 {
-  printf("%d", number);
-num++;
+printf("%d", number);
+number++;
 }
 putchar('\n');
 return (0);
