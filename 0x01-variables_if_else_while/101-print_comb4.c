@@ -17,7 +17,7 @@ putchar(number1 + '0');
 putchar(number2 + '0');
 putchar(number3 + '0');
 counter++;
-if (count < 120)
+if (counter < 120)
 {
 putchar(',');
 putchar(' ');
