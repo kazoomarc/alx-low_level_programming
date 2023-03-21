@@ -1,4 +1,3 @@
-#include "print_number.c"
 #include "main.h"
 #include<stdio.h>
 #include<unistd.h>
@@ -9,14 +8,19 @@
  *
  *Return: 0 (success)
  */
-
+void print_number(int num)
+{
+if (num < 0)
+{
+_putchar('-');
+num = -num;
+}
 
 if (num / 10)
 {
 print_number(num / 10);
-}
 _putchar(num % 10 + '0');
-
+}
 }
 
 void print_to_98(int n)
