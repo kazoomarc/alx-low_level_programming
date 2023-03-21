@@ -10,16 +10,12 @@
 void print_number(int num)
 {
 if(num < 0) {
-putchar('-');
+_putchar('-');
 num = -num;
 }
 if(num/10)
 print_number(num/10);
-putchar(num%10 + '0');
-}
-int _putchar(char c)
-{
-return (write(1, &c, 1));
+_putchar(num%10 + '0');
 }
 
 void print_to_98(int n)
@@ -28,7 +24,7 @@ int start = n;
 if(start < 98){
 while(start <= 98){
 print_number(start);
-putchar(',');
+_putchar(',');
 start++;
 }
 
@@ -43,15 +39,10 @@ while (start >= 98)
 {
 print_number(start);
 if (start != 98) {
-putchar(',');
-putchar(' ');
+_putchar(',');
+_putchar(' ');
 }
 start--;
 }
 }
-}
-
-int main(void){
-print_to_98(111);
-return 0;
 }
