@@ -3,7 +3,8 @@
 #include<unistd.h>
 /**
  *print_to_98 - prints to 98
- *@n: has number to be checked
+ *print_number - it does the format printing
+ *@num: has number to be checked
  *
  *Return: 0 (success)
  */
