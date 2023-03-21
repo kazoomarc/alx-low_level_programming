@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *print_last_digit - prints last digit
- *@end_digit: the last digit to e returned by the function
+ *@num : this is the input number
  *Return: 0 (success)
  */
 int print_last_digit(int num)
