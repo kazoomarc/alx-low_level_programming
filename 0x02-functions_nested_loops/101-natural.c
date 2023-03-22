@@ -28,18 +28,17 @@ void print_natural(int n)
 {
 int end_num = n;
 int i = 0;
+int counter = 0;
 for (i = 1; i < end_num; i++)
 {
 if (i % 3 == 0)
 {
-print_number(i);
-putchar(' ');
+counter += 1;
 }
 
 if (i % 5 == 0)
 {
-print_number(i);
-putchar(' ');
+counter += 1;
 }
 putchar('\n');
 }
