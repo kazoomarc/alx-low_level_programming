@@ -45,3 +45,8 @@ putchar('\n');
 }
 }
 
+int main(void)
+{
+print_natural(1024);
+return (0);
+}
