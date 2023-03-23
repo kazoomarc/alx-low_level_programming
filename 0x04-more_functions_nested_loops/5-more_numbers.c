@@ -5,21 +5,18 @@
  */
 void more_numbers(void)
 {
-int times = 0;
-while (times <= 10)
+int x;
+int y;
+for (x = 0; x < 10; x++)
 {
-int num = 0;
-while (num <= 14)
+for (y = 0; y <= 14; y++)
 {
-if (num >= 10)
+if (y > 0)
 {
-putchar((num / 10) + '0');
+_putchar(( y / 10) + '0');
 }
-putchar((num % 10) + '0');
-num++;
+_putchar(( y / 10) + '0');
 }
-
 _putchar('\n');
-times++;
 }
 }
