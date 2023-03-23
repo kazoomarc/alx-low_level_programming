@@ -1,15 +1,19 @@
 #include "main.h"
+
 /**
- *print_numbers - print numbers 0 - 9
+ * print_most_numbers - multiply two ints a & b
  *
  */
-void print_numbers(void)
+void print_most_numbers(void)
 {
-int i = 0;
-while (i >= 0 && i <= 9)
+int i;
+for (i = 0; i < 10; i++)
 {
-_putchar(i + '0');
-i++;
+if (i != 2 && i != 4)
+{
+putchar('0' + i);
 }
-_putchar('\n');
+}
+putchar('\n');
+return;
 }
