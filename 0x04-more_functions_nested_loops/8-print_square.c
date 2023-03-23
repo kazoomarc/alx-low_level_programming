@@ -1,21 +1,22 @@
 #include "main.h"
+
 /**
- * print_square - prints a square of magnitude "magnitude"
+ * print_square - prints a square of size size
+ * @size: size of the square
  *
- * @magnitude: the magnitude of the square
+ * Return: void
  */
-void print_square(int magnitude)
+
+
+void print_square(int size)
 {
-int i;
-int j;
-if (magnitude <= 0)
-{
+int i, j;
+if (size <= 0)
 _putchar('\n');
-return;
-}
-for (i = 0; i < magnitude; i++)
+
+for (i = 0; i < size; i++)
 {
-for (j = 0; j < magnitude; j++)
+for (j = 0; j < (size); j++)
 {
 _putchar('#');
 }
