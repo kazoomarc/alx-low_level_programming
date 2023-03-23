@@ -5,7 +5,7 @@
  *
  * @a: intiger 1
  * @b: intiger 2
- * 
+ *
  * Return: a * b
  */
 int mul(int a, int b)
