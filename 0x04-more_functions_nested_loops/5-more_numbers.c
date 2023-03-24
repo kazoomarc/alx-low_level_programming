@@ -1,20 +1,25 @@
 #include "main.h"
-
 /**
- * more_numbers - print more numbers
+ *more_numbers - print 10 lines
+ *
  */
-
 void more_numbers(void)
 {
-int i, j;
-for (i = 1; i <= 10; i++)
+int times = 0;
+while (times <= 10)
 {
-for (j = 0; j <= 14; j++)
+int num = 0;
+while (num <= 14)
 {
-if (j >= 10)
-_putchar('1');
-_putchar (j % 10 + '0');
+if (num >= 10)
+{
+_putchar((num / 10) + '0');
+}
+_putchar((num % 10) + '0');
+num++;
 }
 _putchar('\n');
+times++;
 }
 }
+
