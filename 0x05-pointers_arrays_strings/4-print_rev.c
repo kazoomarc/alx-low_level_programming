@@ -2,7 +2,7 @@
 
 /**
  * print_rev - prints string in reverse order
- * @str: the string input pointer
+ * @s: the string input pointer
  * Return: Nothing
 */
 
@@ -15,6 +15,7 @@ length++;
 s++;
 }
 
+s--;
 while (length >= 0)
 {
 _putchar(*s);
