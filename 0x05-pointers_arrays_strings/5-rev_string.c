@@ -13,13 +13,18 @@ while (*s != '\0')
 length++;
 s++;
 }
-
+if (length == 0)
+{
+_putchar('');
+}
+else
+{
 while (length >= 0)
 {
 _putchar(*s);
 length--;
 s--;
 }
-
+}
 _putchar('\n');
 }
