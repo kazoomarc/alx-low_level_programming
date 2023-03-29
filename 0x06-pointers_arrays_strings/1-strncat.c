@@ -2,11 +2,11 @@
 #include<string.h>
 
 /**
- **_strcat - joins string dest and src
+ **_strncat - joins string dest and src
  *
  * @dest: destination of the string
  * @src: source of the string
- *
+ * @n: cutoff int
  * Return: char
 */
 
