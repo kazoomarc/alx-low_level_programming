@@ -3,10 +3,10 @@
 
 /**
  **_strcat - joins string dest and src
- * 
+ *
  * @dest: destination of the string
- * @src: source of the string 
- * 
+ * @src: source of the string
+ *
  * Return: char
 */
 
@@ -23,7 +23,7 @@ dest[dest_len + i] = src[i];
 }
 dest[dest_len + i] = '\0';
 
-return dest;
+return (dest);
 
 }
 
