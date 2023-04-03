@@ -1,11 +1,9 @@
-
 #include "main.h"
 /**
- * 
- * _strspn - gets the length of prefix substring of values in accept
- * 
+ *_strspn - gets the length of prefix substring of values in accept
+ *
  * @s: string s to find the the length of substring
- * 
+ *
  * @accept: string to use for comparison
  * Return:0 (Success)
  */
