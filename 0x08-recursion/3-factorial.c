@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * trueFact - calculate teh factorial
  *
@@ -30,5 +29,5 @@ if (n < 0)
 {
 return (-1);
 }
-return = (trueFact(n));
+return (trueFact(n));
 }
