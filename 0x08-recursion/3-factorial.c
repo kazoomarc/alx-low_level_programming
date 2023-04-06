@@ -30,5 +30,5 @@ if (n < 0)
 {
 return (-1);
 }
-trueFact(n);
+return = (trueFact(n));
 }
