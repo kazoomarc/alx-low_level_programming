@@ -6,7 +6,7 @@
  * @argc: argv count
  * @argv: input args
  *
- * Return: Always 0 (Success)
+ * Return:0 (Success)
  */
 
 int main(int argc, char *argv[])
@@ -35,4 +35,5 @@ if (i == argc)
 printf("%d\n", sum);
 }
 }
+return (0);
 }
