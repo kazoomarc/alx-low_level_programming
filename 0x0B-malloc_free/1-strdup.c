@@ -35,7 +35,7 @@ return (NULL);
 
 for (r = 0; str[r]; r++)
 {
-str[r] = str[r];
+out[r] = str[r];
 }
 
 
