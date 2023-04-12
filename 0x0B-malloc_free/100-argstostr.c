@@ -6,7 +6,7 @@
  * @av: pointr to pointer
  * Return: 0
  */
-		
+
 char *argstostr(int ac, char **av)
 {
 int i, n, r = 0, l = 0;
@@ -29,7 +29,7 @@ str = malloc(sizeof(char) * l + 1);
 
 if (str == NULL)
 {
-return (NULL);	
+return (NULL);
 }
 
 for (i = 0; i < ac; i++)
