@@ -1,33 +1,22 @@
-#include "main.h"
-
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
 /**
- *_calloc - allocats memory for nmeb 2 size bytes
- *@nmemb: array length
- *@size: bytes each in array
- *Return: pointer void
- */
-
+ * _calloc - memory alloc
+ * @nmemb: entered int
+ * @size: Array size
+ * Return: pointer
+**/
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
-char *point;
-unsigned int j;
-
-if (nmemb == 0 || size == 0)
+void *point = malloc(nmemb * size);
+if (point != NULL)
 {
-return (NULL);
-}
-
-point = malloc(nmemb * size);
-if (point == NULL)
+unsigned int i;
+for (i = 0; i < nmemb * size; i++)
 {
-return (NULL);
+*((char *) point + i) = 0;
 }
-
-for (j = 0; j < nmemb * size; j++)
-{
-point[i] = 0;
 }
-
 return (point);
-
 }
