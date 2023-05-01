@@ -17,7 +17,9 @@ const listint_t *turtle, *snake;
 size_t nodes = 1;
 
 if (head == NULL || head->next == NULL)
-        {return (0);}
+{
+return (0);
+}
 
 turtle = head->next;
 snake = (head->next)->next;
