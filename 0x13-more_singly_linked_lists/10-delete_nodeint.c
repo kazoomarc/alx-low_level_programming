@@ -13,7 +13,9 @@ listint_t *temp, *copy = *head;
 unsigned int node;
 
 if (copy == NULL)
-{return (-1);}
+{
+return (-1);
+}
 
 if (index == 0)
 {
