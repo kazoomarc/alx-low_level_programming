@@ -16,7 +16,7 @@ unsigned long int bits = 0;
 
 while (xor > 0)
 {
-bits += (xor&1);
+bits += (xor & 1);
 xor >>= 1;
 }
 
